@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PostgreSQL
+backups/
+*.backup
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Large raw data files
+data/raw/*.csv
+data/raw/*.csv.gz
