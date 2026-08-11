@@ -8,7 +8,9 @@ The project transforms raw Inside Airbnb data into a structured PostgreSQL datab
 
 ## Project Overview
 
-The objective of this project is to understand the structure and activity of the Los Angeles Airbnb market across four analytical areas:
+The objective of this project is to analyze the structure, geographic distribution, guest engagement, and host activity of the Los Angeles Airbnb market and translate the findings into actionable business insights.
+
+The analysis focuses on four key areas:
 
 1. **Executive Market Overview**
 2. **Neighborhood & Geographic Analysis**
