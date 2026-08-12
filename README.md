@@ -218,7 +218,7 @@ sql/
 ├── 01_data_import_notes.sql
 ├── 02_data_validation.sql
 ├── 03_market_overview.sql
-├── 04_neighborhood_analysis.sql
+├── 04_neighbourhood_analysis.sql
 ├── 05_host_analysis.sql
 ├── 06_calendar_analysis.sql
 ├── 07_reviews_analysis.sql
@@ -301,17 +301,16 @@ Investigation notes are retained in:
 Los-Angeles-Airbnb-Market-Analysis/
 │
 ├── README.md
-│
-├── backups/
+├── .gitignore
 │
 ├── dashboard/
 │   ├── powerbi/
-│   ├── screenshots/
-│   └── tableau/
-│
-├── data/
-│   ├── exports/
-│   └── raw/
+│   │   └── Los_Angeles_Airbnb_Market_Analysis.pbix
+│   └── screenshots/
+│       ├── 01_executive_overview.png
+│       ├── 02_neighborhood_geographic_analysis.png
+│       ├── 03_reviews_guest_engagement.png
+│       └── 04_host_availability_analysis.png
 │
 ├── docs/
 │   ├── business_questions.md
@@ -323,7 +322,7 @@ Los-Angeles-Airbnb-Market-Analysis/
     ├── 01_data_import_notes.sql
     ├── 02_data_validation.sql
     ├── 03_market_overview.sql
-    ├── 04_neighborhood_analysis.sql
+    ├── 04_neighbourhood_analysis.sql
     ├── 05_host_analysis.sql
     ├── 06_calendar_analysis.sql
     ├── 07_reviews_analysis.sql
